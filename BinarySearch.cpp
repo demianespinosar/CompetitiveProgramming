@@ -10,6 +10,6 @@ while (lo != hi) {
 	if (P(y))
 		hi = mid;
 	else
-		lo = x + 1;
+		lo = mid + 1;
 }
 return lo;
