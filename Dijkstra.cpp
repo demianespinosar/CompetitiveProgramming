@@ -30,7 +30,6 @@ void dijkstra() {
 			vis[curr.second] = true;
 
 			distan[curr.second] = curr.first;
-			if (curr.second == N+1) break;
 
 			for (auto e : adj[curr.second]) {
 				if (!vis[e.second])
